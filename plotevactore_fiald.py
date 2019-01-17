@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-#spicfide domin
+#specified domin
 n = 10
 #number of vactores
 k=20
