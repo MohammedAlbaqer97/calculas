@@ -10,8 +10,6 @@ R = np.sqrt((x)** 2 + (y) ** 2)
 # T = np.arctan2(y,x)
 a,b,m,n = 3,3,4,3
 u,v = -2*y,2*x
-
-fig, ax = plt.subplot(1,1,1)
 plt.quiver(x,y,u,v,R)
 
 plt.savefig('ss.jpg')
