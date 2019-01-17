@@ -11,6 +11,4 @@ R = np.sqrt((x)** 2 + (y) ** 2)
 a,b,m,n = 3,3,4,3
 u,v = -2*y,2*x
 plt.quiver(x,y,u,v,R)
-
-plt.savefig('ss.jpg')
 plt.show()
